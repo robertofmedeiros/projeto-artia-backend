@@ -9,9 +9,10 @@ Projeto de exemplo de backend para manutenção de projetos.
 * sprinfox
 * docker
 ## Instalaçao
-Para instalçao do banco de dados da aplicação no docker, deve er executado o comando abaixo.
+Para instalçao do banco de dados da aplicação no docker, deve er executado os comandos abaixo.
 Todas as configurações do banco de dados e status da aplicação será feita automaticamente.
-* docker-compose up -d --build
+* realizar o package do maven no intellij
+* executar docker-compose up -d --build como root
 
 Comando deve ser executado no mesmo diretório do arquivo docker-compose.yml.
 
