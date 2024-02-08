@@ -2,13 +2,12 @@ server:
   port: 8081
 spring:
   jpa:
+    database: POSTGRESQL
     hibernate:
       ddl-auto: update
     show-sql: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
   datasource:
-    url: jdbc:mysql://localhost:3306/projeto_artia
-    password: 1234
-    username: root
+    url: jdbc:postgresql://localhost:5432/artia
+    password: 601034
+    username: postgres
+    driverClassName: org.postgresql.Driver
